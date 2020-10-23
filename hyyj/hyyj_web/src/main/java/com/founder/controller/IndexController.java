@@ -26,7 +26,7 @@ public class IndexController extends BaseController {
 	@Autowired
     IMenuService menuService;
 	/**
-	 * 请求页面初始化
+	 * 请求页面初始化类
 	 * @return
 	 */
 	@RequestMapping("/init")
