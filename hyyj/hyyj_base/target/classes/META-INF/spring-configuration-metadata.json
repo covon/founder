@@ -1,0 +1,57 @@
+{
+  "hints": [],
+  "groups": [
+    {
+      "sourceType": "com.founder.security.YmlConfig",
+      "name": "config",
+      "type": "com.founder.security.YmlConfig"
+    }
+  ],
+  "properties": [
+    {
+      "sourceType": "com.founder.security.YmlConfig",
+      "name": "config.authoritykey-sercet",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.founder.security.YmlConfig",
+      "name": "config.bootstrap",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.founder.security.YmlConfig",
+      "name": "config.kafka-rest",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.founder.security.YmlConfig",
+      "name": "config.licence",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.founder.security.YmlConfig",
+      "name": "config.login-sercet",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.founder.security.YmlConfig",
+      "name": "config.spark-jars",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.founder.security.YmlConfig",
+      "name": "config.spark-master",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.founder.security.YmlConfig",
+      "name": "config.spark-rest",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.founder.security.YmlConfig",
+      "name": "config.zookeeper",
+      "type": "java.lang.String"
+    }
+  ]
+}
