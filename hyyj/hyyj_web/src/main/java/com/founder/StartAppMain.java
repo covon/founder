@@ -9,7 +9,7 @@ import org.springframework.transaction.annotation.EnableTransactionManagement;
 
 
 /**
- * 整个工程的启动入口
+ * 整个工程的启动入口类
  */
 @ServletComponentScan
 @SpringBootApplication
