@@ -77,6 +77,7 @@ public class JWTAuthFilter extends BasicAuthenticationFilter {
     private void ajaxHttpToLogin(HttpServletRequest request, HttpServletResponse response, String loginUrl) {
         //如果是ajax请求响应头会有x-requested-with,自定义707状态码为ajax登录过期
         try {
+            //设置session
             response.setHeader("SESSIONSTATUS", "TIMEOUT");
             response.setHeader("CONTEXTPATH", request.getContextPath() +loginUrl);
             response.setStatus(HttpServletResponse.SC_FORBIDDEN);//403 禁止
